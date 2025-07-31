@@ -1,4 +1,11 @@
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Português
+      link: /pt/
+      lang: pt
   analytics:
     property: G-5Z1VTPDL73
     provider: google
@@ -238,7 +245,28 @@ nav:
 repo_url: https://github.com/argoproj/argo-cd
 site_name: Argo CD - Declarative GitOps CD for Kubernetes
 site_url: !ENV READTHEDOCS_CANONICAL_URL
-strict: true
+strict: false
+plugins:
+  - search:
+      lang:
+        - en
+        - pt
+  - i18n:
+      docs_structure: suffix
+      default_language: en
+      default_language_only: false
+      languages:
+        en:
+          name: English
+          build: true
+        pt:
+          name: Português (Brasil)
+          build: true
+      nav_translations:
+        pt:
+          Overview: Visão Geral
+          Operator Manual: Manual de Operação
+          High Availability: Alta disponibilidade
 theme:
   custom_dir: overrides
   favicon: assets/favicon.png
