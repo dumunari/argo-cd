@@ -1,11 +1,12 @@
 extra:
+  announcement: 'This page has not yet been translated into LANGUAGE, therefore it is displayed in English.'
   alternate:
-    - name: English
+    - name: 🇺🇸 English
       link: /
       lang: en
-    - name: Português
-      link: /pt/
-      lang: pt
+    - name: 🇧🇷 Português
+      link: /pt_BR/
+      lang: pt_BR
   analytics:
     property: G-5Z1VTPDL73
     provider: google
@@ -22,224 +23,224 @@ markdown_extensions:
     permalink: true
 - pymdownx.superfences
 nav:
-- Overview: index.md
-- understand_the_basics.md
-- core_concepts.md
-- getting_started.md
+- Overview: en/index.md
+- Understand The Basics: en/understand_the_basics.md
+- Core Concepts: en/core_concepts.md
+- Getting Started: en/getting_started.md
 - Operator Manual:
-  - operator-manual/index.md
-  - operator-manual/architecture.md
-  - operator-manual/installation.md
-  - operator-manual/feature-maturity.md
-  - operator-manual/core.md
-  - operator-manual/declarative-setup.md
-  - operator-manual/app-any-namespace.md
-  - operator-manual/ingress.md
+  - Overview: en/operator-manual/index.md
+  - Architectural Overview: en/operator-manual/architecture.md
+  - Installation: en/operator-manual/installation.md
+  - Feature Maturity: en/operator-manual/feature-maturity.md
+  - Argo CD Core: en/operator-manual/core.md
+  - Declarative Setup: en/operator-manual/declarative-setup.md
+  - Applications in any namespace: en/operator-manual/app-any-namespace.md
+  - Ingress Configuration: en/operator-manual/ingress.md
   - High Availability:
-    - Overview: operator-manual/high_availability.md
-    - Dynamic Cluster Distribution: operator-manual/dynamic-cluster-distribution.md
+    - Overview: en/operator-manual/high_availability.md
+    - Dynamic Cluster Distribution: en/operator-manual/dynamic-cluster-distribution.md
   - User Management:
-    - operator-manual/user-management/index.md
-    - operator-manual/user-management/auth0.md
-    - operator-manual/user-management/microsoft.md
-    - operator-manual/user-management/okta.md
-    - operator-manual/user-management/onelogin.md
-    - operator-manual/user-management/keycloak.md
-    - operator-manual/user-management/openunison.md
-    - operator-manual/user-management/google.md
-    - operator-manual/user-management/zitadel.md
-    - operator-manual/user-management/identity-center.md
-    - operator-manual/rbac.md
+    - Overview: en/operator-manual/user-management/index.md
+    - Auth0: en/operator-manual/user-management/auth0.md
+    - Microsoft: en/operator-manual/user-management/microsoft.md
+    - Okta: en/operator-manual/user-management/okta.md
+    - OneLogin: en/operator-manual/user-management/onelogin.md
+    - Keycloak: en/operator-manual/user-management/keycloak.md
+    - OpenUnison: en/operator-manual/user-management/openunison.md
+    - Google: en/operator-manual/user-management/google.md
+    - Zitadel: en/operator-manual/user-management/zitadel.md
+    - Identity Center (AWS SSO): en/operator-manual/user-management/identity-center.md
+    - RBAC Configuration: en/operator-manual/rbac.md
   - Security:
-    - Overview: operator-manual/security.md
-    - snyk/index.md
-    - operator-manual/signed-release-assets.md
-  - operator-manual/tls.md
-  - operator-manual/cluster-management.md
-  - operator-manual/cluster-bootstrapping.md
-  - operator-manual/secret-management.md
-  - operator-manual/disaster_recovery.md
-  - operator-manual/reconcile.md
-  - operator-manual/webhook.md
-  - operator-manual/health.md
-  - operator-manual/resource_actions.md
-  - operator-manual/custom_tools.md
-  - operator-manual/custom-styles.md
-  - operator-manual/ui-customization.md
-  - operator-manual/metrics.md
-  - operator-manual/web_based_terminal.md
-  - operator-manual/config-management-plugins.md
-  - operator-manual/deep_links.md
+    - Overview: en/operator-manual/security.md
+    - Snyk Scans: en/snyk/index.md
+    - Verification of Argo CD Artifacts: en/operator-manual/signed-release-assets.md
+  - TLS Configuration: en/operator-manual/tls.md
+  - Cluster Management: en/operator-manual/cluster-management.md
+  - Cluster Bootstraping: en/operator-manual/cluster-bootstrapping.md
+  - Secret Management: en/operator-manual/secret-management.md
+  - Disaster Recovery: en/operator-manual/disaster_recovery.md
+  - Reconcile Optimization: en/operator-manual/reconcile.md
+  - Git Webhook Configuration: en/operator-manual/webhook.md
+  - Resource Health: en/operator-manual/health.md
+  - Resource Actions: en/operator-manual/resource_actions.md
+  - Custom Tooling: en/operator-manual/custom_tools.md
+  - Custom Styles: en/operator-manual/custom-styles.md
+  - UI Customization: en/operator-manual/ui-customization.md
+  - Metrics: en/operator-manual/metrics.md
+  - Web-based Terminal: en/operator-manual/web_based_terminal.md
+  - Config Management Plugins: en/operator-manual/config-management-plugins.md
+  - Deep Links: en/operator-manual/deep_links.md
   - Notifications:
-    - Overview: operator-manual/notifications/index.md
-    - operator-manual/notifications/triggers.md
-    - operator-manual/notifications/templates.md
-    - operator-manual/notifications/functions.md
-    - operator-manual/notifications/catalog.md
-    - operator-manual/notifications/monitoring.md
-    - operator-manual/notifications/subscriptions.md
-    - operator-manual/notifications/troubleshooting.md
-    - operator-manual/notifications/troubleshooting-commands.md
-    - operator-manual/notifications/troubleshooting-errors.md
-    - operator-manual/notifications/examples.md
+    - Overview: en/operator-manual/notifications/index.md
+    - en/operator-manual/notifications/triggers.md
+    - en/operator-manual/notifications/templates.md
+    - en/operator-manual/notifications/functions.md
+    - en/operator-manual/notifications/catalog.md
+    - en/operator-manual/notifications/monitoring.md
+    - en/operator-manual/notifications/subscriptions.md
+    - en/operator-manual/notifications/troubleshooting.md
+    - en/operator-manual/notifications/troubleshooting-commands.md
+    - en/operator-manual/notifications/troubleshooting-errors.md
+    - en/operator-manual/notifications/examples.md
     - Notification Services:
-      - operator-manual/notifications/services/alertmanager.md
-      - operator-manual/notifications/services/awssqs.md
-      - operator-manual/notifications/services/email.md
-      - operator-manual/notifications/services/github.md
-      - operator-manual/notifications/services/googlechat.md
-      - operator-manual/notifications/services/grafana.md
-      - operator-manual/notifications/services/mattermost.md
-      - operator-manual/notifications/services/newrelic.md
-      - operator-manual/notifications/services/opsgenie.md
-      - operator-manual/notifications/services/overview.md
-      - operator-manual/notifications/services/pagerduty.md
-      - operator-manual/notifications/services/pagerduty_v2.md
-      - operator-manual/notifications/services/pushover.md
-      - operator-manual/notifications/services/rocketchat.md
-      - operator-manual/notifications/services/slack.md
-      - operator-manual/notifications/services/teams.md
-      - operator-manual/notifications/services/telegram.md
-      - operator-manual/notifications/services/webex.md
-      - operator-manual/notifications/services/webhook.md
-  - operator-manual/troubleshooting.md
+      - en/operator-manual/notifications/services/alertmanager.md
+      - en/operator-manual/notifications/services/awssqs.md
+      - en/operator-manual/notifications/services/email.md
+      - en/operator-manual/notifications/services/github.md
+      - en/operator-manual/notifications/services/googlechat.md
+      - en/operator-manual/notifications/services/grafana.md
+      - en/operator-manual/notifications/services/mattermost.md
+      - en/operator-manual/notifications/services/newrelic.md
+      - en/operator-manual/notifications/services/opsgenie.md
+      - en/operator-manual/notifications/services/overview.md
+      - en/operator-manual/notifications/services/pagerduty.md
+      - en/operator-manual/notifications/services/pagerduty_v2.md
+      - en/operator-manual/notifications/services/pushover.md
+      - en/operator-manual/notifications/services/rocketchat.md
+      - en/operator-manual/notifications/services/slack.md
+      - en/operator-manual/notifications/services/teams.md
+      - en/operator-manual/notifications/services/telegram.md
+      - en/operator-manual/notifications/services/webex.md
+      - en/operator-manual/notifications/services/webhook.md
+  - en/operator-manual/troubleshooting.md
   - ApplicationSet:
-    - Introduction: operator-manual/applicationset/index.md
-    - Installations: operator-manual/applicationset/Getting-Started.md
-    - Use Cases: operator-manual/applicationset/Use-Cases.md
-    - Security: operator-manual/applicationset/Security.md
-    - How ApplicationSet controller interacts with Argo CD: operator-manual/applicationset/Argo-CD-Integration.md
+    - Introduction: en/operator-manual/applicationset/index.md
+    - Installations: en/operator-manual/applicationset/Getting-Started.md
+    - Use Cases: en/operator-manual/applicationset/Use-Cases.md
+    - Security: en/operator-manual/applicationset/Security.md
+    - How ApplicationSet controller interacts with Argo CD: en/operator-manual/applicationset/Argo-CD-Integration.md
     - Generators:
-      - operator-manual/applicationset/Generators.md
-      - operator-manual/applicationset/Generators-List.md
-      - operator-manual/applicationset/Generators-Cluster.md
-      - operator-manual/applicationset/Generators-Git.md
-      - operator-manual/applicationset/Generators-Matrix.md
-      - operator-manual/applicationset/Generators-Merge.md
-      - operator-manual/applicationset/Generators-SCM-Provider.md
-      - operator-manual/applicationset/Generators-Cluster-Decision-Resource.md
-      - operator-manual/applicationset/Generators-Pull-Request.md
-      - operator-manual/applicationset/Generators-Post-Selector.md
-      - operator-manual/applicationset/Generators-Plugin.md
+      - en/operator-manual/applicationset/Generators.md
+      - en/operator-manual/applicationset/Generators-List.md
+      - en/operator-manual/applicationset/Generators-Cluster.md
+      - en/operator-manual/applicationset/Generators-Git.md
+      - en/operator-manual/applicationset/Generators-Matrix.md
+      - en/operator-manual/applicationset/Generators-Merge.md
+      - en/operator-manual/applicationset/Generators-SCM-Provider.md
+      - en/operator-manual/applicationset/Generators-Cluster-Decision-Resource.md
+      - en/operator-manual/applicationset/Generators-Pull-Request.md
+      - en/operator-manual/applicationset/Generators-Post-Selector.md
+      - en/operator-manual/applicationset/Generators-Plugin.md
     - Template fields:
-      - operator-manual/applicationset/Template.md
-      - operator-manual/applicationset/GoTemplate.md
-    - Controlling Resource Modification: operator-manual/applicationset/Controlling-Resource-Modification.md
-    - Application Pruning & Resource Deletion: operator-manual/applicationset/Application-Deletion.md
-    - Progressive Syncs: operator-manual/applicationset/Progressive-Syncs.md
-    - Git File Generator Globbing: operator-manual/applicationset/Generators-Git-File-Globbing.md
-    - ApplicationSet Specification Reference: operator-manual/applicationset/applicationset-specification.md
-    - ApplicationSet in any namespace: operator-manual/applicationset/Appset-Any-Namespace.md
+      - en/operator-manual/applicationset/Template.md
+      - en/operator-manual/applicationset/GoTemplate.md
+    - Controlling Resource Modification: en/operator-manual/applicationset/Controlling-Resource-Modification.md
+    - Application Pruning & Resource Deletion: en/operator-manual/applicationset/Application-Deletion.md
+    - Progressive Syncs: en/operator-manual/applicationset/Progressive-Syncs.md
+    - Git File Generator Globbing: en/operator-manual/applicationset/Generators-Git-File-Globbing.md
+    - ApplicationSet Specification Reference: en/operator-manual/applicationset/applicationset-specification.md
+    - ApplicationSet in any namespace: en/operator-manual/applicationset/Appset-Any-Namespace.md
   - Server Configuration Parameters:
-    - operator-manual/server-commands/argocd-server.md
-    - operator-manual/server-commands/argocd-application-controller.md
-    - operator-manual/server-commands/argocd-repo-server.md
-    - operator-manual/server-commands/argocd-dex.md
-    - operator-manual/server-commands/additional-configuration-method.md
+    - en/operator-manual/server-commands/argocd-server.md
+    - en/operator-manual/server-commands/argocd-application-controller.md
+    - en/operator-manual/server-commands/argocd-repo-server.md
+    - en/operator-manual/server-commands/argocd-dex.md
+    - en/operator-manual/server-commands/additional-configuration-method.md
   - Upgrading:
-    - operator-manual/upgrading/overview.md
-    - operator-manual/upgrading/3.1-3.2.md
-    - operator-manual/upgrading/3.0-3.1.md
-    - operator-manual/upgrading/2.14-3.0.md
-    - operator-manual/upgrading/2.13-2.14.md
-    - operator-manual/upgrading/2.12-2.13.md
-    - operator-manual/upgrading/2.11-2.12.md
-    - operator-manual/upgrading/2.10-2.11.md
-    - operator-manual/upgrading/2.9-2.10.md
-    - operator-manual/upgrading/2.8-2.9.md
-    - operator-manual/upgrading/2.7-2.8.md
-    - operator-manual/upgrading/2.6-2.7.md
-    - operator-manual/upgrading/2.5-2.6.md
-    - operator-manual/upgrading/2.4-2.5.md
-    - operator-manual/upgrading/2.3-2.4.md
-    - operator-manual/upgrading/2.2-2.3.md
-    - operator-manual/upgrading/2.1-2.2.md
-    - operator-manual/upgrading/2.0-2.1.md
-    - operator-manual/upgrading/1.8-2.0.md
-    - operator-manual/upgrading/1.7-1.8.md
-    - operator-manual/upgrading/1.6-1.7.md
-    - operator-manual/upgrading/1.5-1.6.md
-    - operator-manual/upgrading/1.4-1.5.md
-    - operator-manual/upgrading/1.3-1.4.md
-    - operator-manual/upgrading/1.2-1.3.md
-    - operator-manual/upgrading/1.1-1.2.md
-    - operator-manual/upgrading/1.0-1.1.md
-  - Project Specification Reference: operator-manual/project-specification.md
+    - en/operator-manual/upgrading/overview.md
+    - en/operator-manual/upgrading/3.1-3.2.md
+    - en/operator-manual/upgrading/3.0-3.1.md
+    - en/operator-manual/upgrading/2.14-3.0.md
+    - en/operator-manual/upgrading/2.13-2.14.md
+    - en/operator-manual/upgrading/2.12-2.13.md
+    - en/operator-manual/upgrading/2.11-2.12.md
+    - en/operator-manual/upgrading/2.10-2.11.md
+    - en/operator-manual/upgrading/2.9-2.10.md
+    - en/operator-manual/upgrading/2.8-2.9.md
+    - en/operator-manual/upgrading/2.7-2.8.md
+    - en/operator-manual/upgrading/2.6-2.7.md
+    - en/operator-manual/upgrading/2.5-2.6.md
+    - en/operator-manual/upgrading/2.4-2.5.md
+    - en/operator-manual/upgrading/2.3-2.4.md
+    - en/operator-manual/upgrading/2.2-2.3.md
+    - en/operator-manual/upgrading/2.1-2.2.md
+    - en/operator-manual/upgrading/2.0-2.1.md
+    - en/operator-manual/upgrading/1.8-2.0.md
+    - en/operator-manual/upgrading/1.7-1.8.md
+    - en/operator-manual/upgrading/1.6-1.7.md
+    - en/operator-manual/upgrading/1.5-1.6.md
+    - en/operator-manual/upgrading/1.4-1.5.md
+    - en/operator-manual/upgrading/1.3-1.4.md
+    - en/operator-manual/upgrading/1.2-1.3.md
+    - en/operator-manual/upgrading/1.1-1.2.md
+    - en/operator-manual/upgrading/1.0-1.1.md
+  - Project Specification Reference: en/operator-manual/project-specification.md
 - User Guide:
-  - user-guide/index.md
-  - user-guide/application_sources.md
-  - user-guide/kustomize.md
-  - user-guide/helm.md
-  - user-guide/oci.md
-  - user-guide/import.md
-  - user-guide/jsonnet.md
-  - user-guide/directory.md
-  - user-guide/tool_detection.md
-  - user-guide/projects.md
-  - user-guide/private-repositories.md
-  - user-guide/plugins.md
-  - user-guide/multiple_sources.md
-  - GnuPG verification: user-guide/gpg-verification.md
-  - user-guide/auto_sync.md
+  - Overview: en/user-guide/index.md
+  - Tools: en/user-guide/application_sources.md
+  - Kustomize: en/user-guide/kustomize.md
+  - Helm: en/user-guide/helm.md
+  - OCI: en/user-guide/oci.md
+  - Importing Argo CD Go packages: en/user-guide/import.md
+  - Jsonnet: en/user-guide/jsonnet.md
+  - Directory: en/user-guide/directory.md
+  - Tool Detection: en/user-guide/tool_detection.md
+  - Projects: en/user-guide/projects.md
+  - Private Repositories: en/user-guide/private-repositories.md
+  - Plugins: en/user-guide/plugins.md
+  - Multiples Sources for an Application: en/user-guide/multiple_sources.md
+  - GnuPG verification: en/user-guide/gpg-verification.md
+  - Automated Sync Policy: en/user-guide/auto_sync.md
   - Diffing:
-    - Diff Strategies: user-guide/diff-strategies.md
-    - Diff Customization: user-guide/diffing.md
-  - user-guide/orphaned-resources.md
-  - user-guide/compare-options.md
-  - user-guide/sync-options.md
-  - user-guide/parameters.md
-  - user-guide/environment-variables.md
-  - user-guide/build-environment.md
-  - user-guide/tracking_strategies.md
-  - user-guide/resource_tracking.md
-  - user-guide/resource_hooks.md
-  - user-guide/selective_sync.md
-  - user-guide/sync-waves.md
-  - user-guide/sync_windows.md
-  - user-guide/sync-kubectl.md
-  - user-guide/skip_reconcile.md
-  - Generating Applications with ApplicationSet: user-guide/application-set.md
-  - user-guide/ci_automation.md
-  - user-guide/app_deletion.md
-  - user-guide/best_practices.md
-  - user-guide/status-badge.md
-  - user-guide/external-url.md
-  - user-guide/extra_info.md
-  - Notification subscriptions: user-guide/subscriptions.md
-  - user-guide/annotations-and-labels.md
-  - Command Reference: user-guide/commands/argocd.md
-  - Application Specification Reference: user-guide/application-specification.md
+    - Diff Strategies: en/user-guide/diff-strategies.md
+    - Diff Customization: en/user-guide/diffing.md
+  - Orphaned Resources Monitoring: en/user-guide/orphaned-resources.md
+  - Compare Options: en/user-guide/compare-options.md
+  - Sync Options: en/user-guide/sync-options.md
+  - Parameter Overrides: en/user-guide/parameters.md
+  - Environment Variables: en/user-guide/environment-variables.md
+  - Build Environment: en/user-guide/build-environment.md
+  - Tracking and Deploymnet Strategies: en/user-guide/tracking_strategies.md
+  - Resource Tracking: en/user-guide/resource_tracking.md
+  - Resource Hooks: en/user-guide/resource_hooks.md
+  - Selective Sync: en/user-guide/selective_sync.md
+  - Sync Phases and Waves: en/user-guide/sync-waves.md
+  - Sync Windows: en/user-guide/sync_windows.md
+  - Sync Application with kubectl: en/user-guide/sync-kubectl.md
+  - Skip Application Reconcicle: en/user-guide/skip_reconcile.md
+  - Generating Applications with ApplicationSet: en/user-guide/application-set.md
+  - Automation from CI Pipelines: en/user-guide/ci_automation.md
+  - App Deletion: en/user-guide/app_deletion.md
+  - Best Practices: en/user-guide/best_practices.md
+  - Status Badge: en/user-guide/status-badge.md
+  - Add external URL: en/user-guide/external-url.md
+  - Add extra Application info: en/user-guide/extra_info.md
+  - Notification subscriptions: en/user-guide/subscriptions.md
+  - Annotations and Labels used by Argo CD: en/user-guide/annotations-and-labels.md
+  - Command Reference: en/user-guide/commands/argocd.md
+  - Application Specification Reference: en/user-guide/application-specification.md
 - Developer Guide:
-  - developer-guide/index.md
-  - Development Environment: developer-guide/development-environment.md
-  - Development Cycle: developer-guide/development-cycle.md
-  - Submit Your PR: developer-guide/submit-your-pr.md
+  - Overview: en/developer-guide/index.md
+  - Development Environment: en/developer-guide/development-environment.md
+  - Development Cycle: en/developer-guide/development-cycle.md
+  - Submit Your PR: en/developer-guide/submit-your-pr.md
   - Architecture:
-    - developer-guide/architecture/authz-authn.md
-    - developer-guide/architecture/components.md
-  - Code Contribution Guide: developer-guide/code-contributions.md
-  - Toolchain Guide: developer-guide/toolchain-guide.md
-  - developer-guide/mac-users.md
-  - developer-guide/release-process-and-cadence.md
-  - developer-guide/running-locally.md
-  - developer-guide/debugging-locally.md
-  - developer-guide/debugging-remote-environment.md
-  - developer-guide/api-docs.md
-  - developer-guide/test-e2e.md
-  - developer-guide/dependencies.md
-  - developer-guide/ci.md
-  - developer-guide/releasing.md
-  - developer-guide/docs-site.md
-  - developer-guide/static-code-analysis.md
+    - Authentication and Authorization: en/developer-guide/architecture/authz-authn.md
+    - Component Architecture: en/developer-guide/architecture/components.md
+  - Code Contribution Guide: en/developer-guide/code-contributions.md
+  - Toolchain Guide: en/developer-guide/toolchain-guide.md
+  - MacOS users: en/developer-guide/mac-users.md
+  - Release Process and Cadence: en/developer-guide/release-process-and-cadence.md
+  - Running Argo CD locally: en/developer-guide/running-locally.md
+  - Debugging a local Argo CD instance: en/developer-guide/debugging-locally.md
+  - Debugging a Remote Argo CD Environment: en/developer-guide/debugging-remote-environment.md
+  - API Docs: en/developer-guide/api-docs.md
+  - E2E Tests: en/developer-guide/test-e2e.md
+  - Managing Dependencies: en/developer-guide/dependencies.md
+  - Continuous Integration (CI): en/developer-guide/ci.md
+  - Releasing: en/developer-guide/releasing.md
+  - Documentation Site: en/developer-guide/docs-site.md
+  - Static Code Analysis: en/developer-guide/static-code-analysis.md
   - Extensions:
-    - developer-guide/extensions/ui-extensions.md
-    - developer-guide/extensions/proxy-extensions.md
-  - developer-guide/faq.md
-  - developer-guide/tilt.md
-- faq.md
-- security_considerations.md
-- Support: SUPPORT.md
-- roadmap.md
+    - UI Extensions: en/developer-guide/extensions/ui-extensions.md
+    - Proxy Extensions: en/developer-guide/extensions/proxy-extensions.md
+  - Contribution FAQ: en/developer-guide/faq.md
+  - Tilt Development: en/developer-guide/tilt.md
+- FAQ: en/faq.md
+- Dicas de Segurança: en/security_considerations.md
+- Support: en/SUPPORT.md
+- Roadmap: en/roadmap.md
 - Releases ⧉: https://github.com/argoproj/argo-cd/releases
 - Blog ⧉: https://blog.argoproj.io/
 repo_url: https://github.com/argoproj/argo-cd
@@ -250,23 +251,71 @@ plugins:
   - search:
       lang:
         - en
-        - pt
+        - pt_BR
   - i18n:
-      docs_structure: suffix
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
       default_language: en
       default_language_only: false
       languages:
         en:
           name: English
+          locale: en
           build: true
-        pt:
+          default: true
+        pt_BR:
           name: Português (Brasil)
+          site_name: Argo CD - GitOps Declarativo para Kubernetes
+          locale: pt_BR
           build: true
+          extra:
+           announcement: 'Esta pagina nao foi traduzida.'
       nav_translations:
-        pt:
-          Overview: Visão Geral
-          Operator Manual: Manual de Operação
+        pt_BR:
+          Overview: Visão geral
+          Understand The Basics: Entenda o básico
+          Core Concepts: Conceitos principais
+          Getting Started: Primeiros Passos
+          Operator Manual: Manual do administrador
+          Architectural Overview: 
           High Availability: Alta disponibilidade
+          Dynamic Cluster Distribution: Distribuição dinâmica de cluster
+          User Management: Gerenciamento de usuário
+          Security: Segurança
+          Notifications: Notificações
+          Notification Services: Serviços de notificação
+          Introduction: Introdução
+          Installations: Instalação
+          Use Cases: Casos de uso
+          How ApplicationSet controller interacts with Argo CD: Como o ApplicationSet controller interage com o Argo CD
+          Template fields: Campos de templates
+          Controlling Resource Modification: Controlando a modificação de recursos
+          Application Pruning & Resource Deletion: Remoção de aplicações & Deleção de recursos
+          Progressive Syncs: Syncs progressivos
+          ApplicationSet Specification Reference: Especificação de ApplicationSet
+          ApplicationSet in any namespace: ApplicationSet em qualquer namespace
+          Server Configuration Parameters: Parâmetros de configuração do server
+          Upgrading: Atualizando
+          Project Specification Reference: Especificação de Projeto
+          User Guide: Guia do usuário
+          Diff Strategies: Estratégias de Diff
+          Diff Customization: Customização de Diff
+          Generating Applications with ApplicationSet: Gerando Applications com ApplicationSet
+          Notification subscriptions: Subscrição em notificações
+          Command Reference: Referência de Comandos
+          Application Specification Reference: Especificação de Application
+          Developer Guide: Guia do desenvolvedor
+          Development Environment: Ambiente de desenvolvimento
+          Development Cycle: Ciclo de desenvolvimento
+          Submit Your PR: Envie seu PR
+          Architecture: Arquitetura
+          Code Contribution Guide: Guia de contribuição
+          Toolchain Guide: Guia de toolchain
+          Extensions: Extensões
+          Security Considerations: Dicas de segurança
+          Support: Suporte
 theme:
   custom_dir: overrides
   favicon: assets/favicon.png
